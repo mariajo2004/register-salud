@@ -1,0 +1,46 @@
+body{
+	background-image: url(../imagenes/imagen14.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.box1{
+	width: 800px;
+	margin: 90px auto;
+}
+
+table{
+	width: 100%;
+	background-color: white;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+.title{
+	text-align: center;
+}
+
+
+
+th, td{
+	/*border: 1px solid black;*/
+	padding: 20px;
+}
+
+thead{
+	background-color: #83B4FF;
+	border-bottom: 2px solid #D5E7FF;
+}
+
+tr:hover td{
+	background-color: black;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #E2ECEA;
+}
+
+.title2{
+	background-color: aqua;
+}

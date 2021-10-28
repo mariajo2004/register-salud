@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../imagenes/imagen12.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 20px;
+	font-family: 'Noto Serif', serif;
+}
+
+form{
+	width: 250px;
+	margin: 100px auto;
+	text-align: left;
+	padding: 20px;
+	border:1px solid #bbbbbb;
+	border-radius: 5px;
+    position: relative;
+    left: 20px;
+    top: 100px;
+	background-color: rgba(51,199,255,0.5);
+	}
+.boton-one{
+	padding: 10px;
+	font-size: 15px;
+	color: orange;
+	background: #2c3e50;
+	border:none;
+	color: white;
+	border-radius: 5px;
+	position: relative;
+	/*margin: -50px 250px;*/
+	left: 710px;
+	top: -52px;
+
+}
+.boton{
+	padding: 10px;
+	font-size: 15px;
+	color: orange;
+	background: #2c3e50;
+	border:none;
+	color: white;
+	border-radius: 5px;
+	position: relative;
+	/*margin: -50px 250px;*/
+	left: 10px;
+	top: 6px;
+
+}
+
+button a{
+	text-decoration: none;
+	color: white;
+}

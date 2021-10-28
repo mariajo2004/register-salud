@@ -1,0 +1,262 @@
+
+body{
+	background-color:white;
+	margin: 0px;
+	padding: 0px;
+	
+}
+body{
+	background-attachment: fixed;
+	font-family: 'Roboto', sans-serif;
+	background-color: white;
+	background-size: 100%;
+	
+
+}
+
+nav{
+	background-color: white);
+	height: 100px;
+	margin: 0px;
+	padding: 0px;
+	
+	
+}
+
+.logo{
+	padding: 5px 0 0 80px;
+	width: 250px;
+	position: relative;
+	
+}
+
+.menu{
+	margin: auto;
+
+	
+}
+
+nav ul{
+	padding: 20px;
+	margin: 0px;
+	float: right;
+	margin-right: 32px;
+	
+}
+
+nav ul li{
+	background-color:white ;
+	list-style: none;
+	display: inline-block;
+	position: relative;
+}
+
+nav ul li a{
+	display: block;
+	color: black;
+	padding: 0 15px;
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 60px;
+	 
+}
+
+nav ul li a:hover{
+	background-color: #DEECFF ;
+}
+
+nav ul ul{
+	position: absolute;
+	top: 60px;
+	display: none;
+	
+
+}
+
+nav ul li:hover > ul{
+	display: block; 
+	
+
+}
+
+nav ul ul li{
+	width: 150px;
+	float: none;
+	display: list-item;
+	position: relative;
+	
+}
+
+
+nav ul ul ul li{
+	position: relative;
+	top: -60px;
+	left: 150px;
+} 
+
+.main_container {
+	width: 100%;
+	height: 750px;
+	overflow: visible;
+	margin: auto;
+	
+
+	
+}
+.main-slider{
+	width: auto;
+	height: 750px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	position: absolute;
+	overflow: hidden;
+	
+	
+} 
+
+.text_container{
+width: 40%;
+height: auto;
+background-color: rgb 4,12,1,1;
+margin: 0%;
+padding: 3%;
+float: left;
+position: absolute;
+text-align: center;
+font-size: 30px;
+color: black ;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight:bold;
+-webkit-text-stroke: 1px white;
+
+
+
+
+}
+
+
+
+
+#portafolio {
+	background: whitesmoke;
+	margin left: 60px;
+	text-align: center;
+  }
+  
+  #portafolio .box {
+	display: inline-block;
+	background: white;
+	text-align: center;
+	width: 296px;
+	margin: 15px;
+  }
+  
+  #portafolio .box img {
+	width: 100%;
+  }
+  
+  #portafolio .box h3 {
+	margin: 10px 0;
+  }
+  
+  #portafolio .box p {
+	color: #666;
+	padding: 10px;
+	margin-top: 0;
+  }
+  
+  #portafolio .box a{
+	text-decoration: none;
+	color: black;
+	text-align: center;
+  }
+  
+  #portafolio .box img:hover{
+	transform: scale(0.8);
+	transition: all 0.6s ease;
+  }
+
+
+
+}
+
+#container1 {
+	background-color:white;
+	text-align: center;
+	padding: 30px 0;
+	height: 50px;
+  }
+
+  
+.main-slider ul{
+	padding: 0;
+	display: flex;
+	width: 400%;
+	animation: carousel 15s infinite;
+	animation-direction: alternate;
+	animation-timing-function: ease-in-out;
+}
+
+
+
+
+.main-slider li{
+    list-style: none;
+    width: 100%;
+}
+
+.main-slider img{
+	width: 100%;
+	height: 100%;
+}
+
+@keyframes carousel{
+
+	0%{ margin-left: 0%; }
+	20%{ margin-left: 0%; }
+
+
+    25%{ margin-left: -100%; }
+    45%{ margin-left: -100%; }
+
+
+    50%{ margin-left: -200%; }
+    70%{ margin-left: -200%; }
+
+
+    75%{ margin-left: -300%; }
+    100%{ margin-left: -300%; }
+
+}
+
+.mapa{
+	
+	margin: 5px auto;
+	width: 100%;
+	height:250px;
+	
+}
+
+.mapa iframe{
+	width: 100%;
+	height: 100%;
+}
+
+.pie{
+	width: 100%;
+	height: 100px;
+	padding-top: 10px;
+	padding-left: 10px;
+	background-color: skyblue;
+	margin-top: 0px;
+	text-align: left;
+	font-size: 25px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+	color: white;
+	-webkit-text-stroke: 1px white;
+
+}
+
+
+
